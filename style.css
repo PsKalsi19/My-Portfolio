@@ -1,15 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
+  --body-color: #fff7ed;
   --primary-color: #f59e0b;
-  --dark-gray:#9ca3af;
-  --light-gray:#f3f4f6;
-  --white:#fafafa
+  --secondary-color: #ffedd5;
+  --dark-gray: #4b5563;
+  --white: #fafafa;
+  --icon-color: #fafafa;
 }
 /* For typography */
 body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
+  background-color: var(--body-color);
 }
 /* For Containers */
 
@@ -35,7 +38,7 @@ hr {
 
 .link-primary {
   background-color: var(--primary-color);
-  color:var(--white);
+  color: var(--white);
 }
 
 .link-secondary {
@@ -48,34 +51,45 @@ hr {
   list-style: none;
 }
 
+li h2{
+  color: var(--primary-color);
+}
+
+li small{
+  color: var(--dark-gray);
+}
+
 .list-item-inline {
   display: inline;
   padding: 0rem 0.5rem;
 }
 
-.unordered-list.list-non-bullet{
-    padding-inline-start: 0px;
-
+.unordered-list.list-non-bullet {
+  padding-inline-start: 0px;
 }
 
 /* For nav */
 .navigation {
   background-color: var(--primary-color);
-  color:var(--white);
-  padding: 1rem;
-  border-bottom-left-radius: 1rem;
+  color: var(--secondary-color);
+  padding: 1rem 8rem;
 }
 
 .navigation > .nav-brand {
   font-weight: bolder;
+  color: var(--brand);
 }
 
 .navigation .link {
-  color:var(--white);
+  color: var(--secondary-color);
 }
 
 .nav-pills {
   text-align: end;
+}
+
+ul.project-lists {
+  margin: 0;
 }
 
 .navigation .link-active {
@@ -84,55 +98,93 @@ hr {
 
 /* for header */
 
-.hero{
-    padding:2rem;
-    /* text-align: center; */
+.hero {
+  padding: 2rem;
 }
 
-.hero .hero-img{
-    max-width: 360px;
-    display: block;
-    margin: auto;
+.hero .hero-img {
+  max-width: 260px;
+  display: block;
+  margin: auto;
 }
 
-.hero .hero-heading{
-    color: var(--dark-gray);
-    text-align: center;
+.hero .portfolio-img {
+  max-width: 360px;
+  display: block;
+  margin: 4rem auto;
 }
 
-.hero-heading-highligh{
-    color: var(--primary-color);
+.hero .hero-heading {
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+.hero-heading-highlight {
+  color: var(--primary-color);
+}
+.hero-subheading {
+  text-align: center;
+  color: var(--primary-color);
+  margin: 0;
 }
 
 /* for sections */
-.section{
-    padding: 2rem;
+.section {
+  padding: 2rem;
+  text-align: center;
 }
 
-.section h3{
-    text-align: center;
+.section h3 {
+  text-align: center;
+  color: var(--primary-color);
 }
-.section-off-white{
-    background-color: var(--light-gray);
+.section-off-white {
+  background-color: var(--secondary-color);
+}
+
+.section p {
+  color: var(--dark-gray);
 }
 
 /* for footer */
 
-.footer{
-    padding: 2rem 1rem;
-    background-color: var(--primary-color);
-    text-align: center;
-    border-top-right-radius: 1rem;
-}
-.footer .link{
-    color:var(--white);
+.footer {
+  padding: 2rem 1rem;
+  background-color: var(--primary-color);
+  text-align: center;
 }
 
-.footer ul{
-padding-inline-start: 0px;
+.footer ul {
+  padding-inline-start: 0px;
 }
 
-.footer .footer-header{
-    font-size: large;
-    font-weight: bold;
+.footer .footer-header {
+  font-size: large;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+/* for icons */
+
+.lni {
+  font-size: larger;
+  color: var(--icon-color);
+}
+
+.link-active .lni {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+.technology-list .lni {
+  color: var(--primary-color);
+}
+.footer .lni {
+  font-size: x-large;
+  color: var(--icon-color);
+}
+
+.stack-used .lni{
+  color: var(--dark-gray);
+  font-size: 5vw;
+  margin:0rem 1rem;
 }
