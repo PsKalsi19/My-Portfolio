@@ -1,23 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN for line icons -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
     <title>Blogs | My-Portfolio</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navigation container">
-        <span class="nav-brand"> Developer </span>
-        <ul class="list-non-bullet nav-pills">
-          <li class="list-item-inline">
-            <a class="link" href="index.html">Home</a>
+      <a class="link nav-brand" href="index.html"> Prabhjot Kalsi</a>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="index.html"
+            ><i class="lni lni-home"></i> Home</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="projects.html">
+            <i class="lni lni-code"></i> Projects</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="#"
+            ><i class="lni lni-popup"></i> Blogs</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <img class="blogs-img" src="blogs.svg" alt="blogs-hero" />
+      <h2 class="hero-heading">
+        These are the projects I've completed so far while learning
+      </h2>
+      <h1 class="hero-subheading">Web Development.</h1>
+    </header>
+    <ul class="unordered-list project-lists list-non-bullet">
+      <!-- Blog 3 -->
+      <section class="section section-off-white">
+        <div class="container container-center">
+        
+          <span title="blog" class="stack-used"
+            ><i class="lni lni-book"></i></span>
+          <li>
+            <h2>Minionita</h2>
+            <small>September-2022</small>
+            <p>
+              Do you like the Minions? Use the translator to translate what we
+              speak into Minions language. Made using
+              <strong> vanillaJS</strong>.
+            </p>
+            <a
+              class="link link-primary"
+              target="_blank"
+              href="https://prabh-neog-minionita.netlify.app/"
+            >
+              Live Project</a
+            >
+            <a
+              class="link link-secondary"
+              target="_blank"
+              href="https://github.com/PsKalsi19/Banana-Speaks-JS"
+            >
+              View Source</a
+            >
           </li>
-          <li class="list-item-inline"><a class="link" href="projects.html">Projects</a></li>
-          <li class="list-item-inline"><a class="link link-active" href="/">Blogs</a></li>
-        </ul>
-      </nav>
-</body>
+        </div>
+      </section>
+      <!-- Blog 2 -->
+      <section class="section">
+        <div class="container container-center">
+          <span title="blog" class="stack-used"
+          ><i class="lni lni-book"></i></span>
+          <li>
+            <h2>Indian Meme Trivia</h2>
+            <small>August-2022</small>
+            <p>
+              This is a Multi Level CLI game, built with
+              <strong>nodeJS</strong>. Play this to see if your meme game is on
+              point or not.
+            </p>
+            <a
+              class="link link-primary"
+              target="_blank"
+              href="https://replit.com/@RounakKalsii/Indian-Memes-Trivia?embed=1&output=1"
+            >
+              Live Project</a
+            >
+            <a
+              class="link link-secondary"
+              target="_blank"
+              href="https://github.com/PsKalsi19/Indian-Memes-Trivia"
+            >
+              View Source</a
+            >
+          </li>
+        </div>
+      </section>
+      <!-- Blog 1 -->
+      <section class="section section-off-white">
+        <div class="container container-center">
+          <span title="blog" class="stack-used"
+          ><i class="lni lni-book"></i></span>
+          <li>
+            <h2>How well do you know me?</h2>
+            <small>August-2022</small>
+            <p>
+              A CLI app, built with <strong>nodeJS</strong>. If you want to
+              check how well do you know me, try this.
+            </p>
+            <a
+              class="link link-primary"
+              target="_blank"
+              href="https://replit.com/@RounakKalsii/Do-you-know-me?embed=1&output=1"
+            >
+              Live Project</a
+            >
+            <a
+              class="link link-secondary"
+              target="_blank"
+              href="https://github.com/PsKalsi19/Do-you-know-me"
+            >
+              View Source</a
+            >
+          </li>
+        </div>
+      </section>
+    </ul>
+    <footer class="footer">
+      <p class="footer-header">We can connect on:</p>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a
+            class="link"
+            title="github"
+            target="_blank"
+            href="https://github.com/PsKalsi19"
+            ><i class="lni lni-github-original"></i
+          ></a>
+        </li>
+        |
+        <li class="list-item-inline">
+          <a
+            class="link"
+            title="linkedIn"
+            target="_blank"
+            href="https://www.linkedin.com/in/prabhjot-kalsi-8390a6240/"
+            ><i class="lni lni-linkedin-original"></i
+          ></a>
+        </li>
+        |
+        <li class="list-item-inline">
+          <a
+            class="link"
+            title="twitter"
+            target="_blank"
+            href="https://twitter.com/kalamaurcode"
+            ><i class="lni lni-twitter-filled"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
