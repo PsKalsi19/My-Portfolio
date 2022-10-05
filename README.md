@@ -1,11 +1,9 @@
 # My-Portfolio
-Creating a Portfolio for neog-camp
+## Created a Portfolio website to showcase my projects and build a proof of work website.
 
-**Tasks that are left in this one**
-- Hosting.
-- Blogs Page( I also should be able to redirect to full blog page.)
-- Projects(Once all projects are competed, need to add them in project section.)
-- Footer links
+Learning
+- Understood the basics of how to design a clean and simple css library.
+- Best ways to create a utility classes.
 
 
 **Things to revise and understand**
