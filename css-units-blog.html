@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN for line icons -->
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <title>CSS Units | Blog</title>
+  </head>
+  <body>
+    <nav class="navigation container">
+      <a class="link nav-brand" href="index.html"> Prabhjot Kalsi</a>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="index.html"
+            ><i class="lni lni-home"></i> Home</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="blogs.html"
+            ><i class="lni lni-popup"></i> Blogs</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <h1 class="hero-subheading">Basics of CSS Units</h1>
+      <h2 class="hero-heading">Progressive Web Application</h2>
+    </header>
+    <div class="container container-center">
+      <article>
+        <h2 id="units-in-css">Units in CSS</h2>
+        <p>
+          In our daily lives, we use units to measure a variety of things, such
+          as length, volume, and mass. And there are numerous ways to measure
+          them, which are referred to as <span class="blog-highlight">units</span>. In CSS, multiple
+          units are used to measure the dimensions of many Element properties
+          such as padding, border thickness, width, and so on. Below is the
+          description of how units can be used with the compatible CSS property.
+        </p>
+        <pre class="code-example"><code><span>css-query-selector</span>
+          {
+          <span>width</span>:<span>8px</span>;
+          }
+          </code>
+        </pre>
+        <p>
+          In the code above, I have used <span class="blog-highlight">px</span>(pixel) which is one of
+          the most commonly used CSS units.
+        </p>
+        <h2 id="types-of-units">Types of Units</h2>
+        <p>Units in CSS are divided into two parts</p>
+        <ol>
+          <li>Absolute</li>
+          <li>Relative</li>
+        </ol>
+        <p>
+          <strong>Absolute</strong> units are like the selfish kids in the family who
+          don't care about their surroundings, or in technical terms, those who
+          don't care about the window size or parent elements. Types of Absolute
+          Units:
+          <span class="blog-highlight">cm</span
+          >,<span class="blog-highlight">mm</span>,
+          <span class="blog-highlight">Q</span>,
+          <span class="blog-highlight">in</span>,
+          <span class="blog-highlight">pc</span>,
+          <span class="blog-highlight">pt</span>,
+          and <span class="blog-highlight">px</span>.
+        </p>
+        <p>
+          <span class="blog-highlight">px</span> is the only widely used absolute unit. I never had to
+          use other absolute units in my one and a half years as a front-end
+          developer. The majority of these other units are used for printing
+          output on paper rather than for screens/devices.
+        </p>
+        <p>
+          <strong>Relative</strong> units are concerned about their parents and
+          siblings; in technical terms, they are relative to other length
+          properties such as the parent element's font size, or viewport size.
+          Using these units makes the life of a front-end developer easier.
+        </p>
+        <blockquote>
+          <p>
+            Knowing these units and when and why to use the particular relative
+            units can decrease your stress levels and frustrations.
+          </p>
+        </blockquote>
+        <p>
+          Types of Relative units :
+          <span class="blog-highlight">em</span
+          >,<span class="blog-highlight">ex</span>,<span class="blog-highlight">ch</span>,<span class="blog-highlight">rem</span>,
+          <span class="blog-highlight">vw</span>,<span class="blog-highlight">vh</span>,<span class="blog-highlight">vmin</span>,<span class="blog-highlight">vmax</span>,
+          and <span class="blog-highlight">%</span>.
+        </p>
+        <p>
+          These units are all related to various properties, elements, and
+          conditions. <span class="blog-highlight">%</span> refers to the parent element, whereas
+          <span class="blog-highlight">rem</span> refers to the root element's font size.
+          <span class="blog-highlight">vw</span> refers to the width of the viewport, while
+          <span class="blog-highlight">vh</span> refers to the height of the viewport. Another
+          important and widely used relative unit is <span class="blog-highlight">em</span>, which is a
+          multiple of the element's font size and is relative to it.
+        </p>
+        <p>
+          To read more about this, check out these links:
+          <a target="_blank" class="link blog-link"
+            href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages"
+            >MDN Docs- Values and Units</a
+          >
+        </p>
+      </article>
+    </div>
+    <footer class="footer">
+      <p class="footer-header">We can connect on:</p>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a
+            class="link"
+            title="github"
+            target="_blank"
+            href="https://github.com/PsKalsi19"
+            ><i class="lni lni-github-original"></i
+          ></a>
+        </li>
+        |
+        <li class="list-item-inline">
+          <a
+            class="link"
+            title="linkedIn"
+            target="_blank"
+            href="https://www.linkedin.com/in/prabhjot-kalsi-8390a6240/"
+            ><i class="lni lni-linkedin-original"></i
+          ></a>
+        </li>
+        |
+        <li class="list-item-inline">
+          <a
+            class="link"
+            title="twitter"
+            target="_blank"
+            href="https://twitter.com/kalamaurcode"
+            ><i class="lni lni-twitter-filled"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

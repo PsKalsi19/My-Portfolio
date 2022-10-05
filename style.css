@@ -185,6 +185,41 @@ ul.project-lists {
 
 .stack-used .lni{
   color: var(--dark-gray);
-  font-size: 5vw;
+  font-size: 5vmax;
   margin:0rem 1rem;
+}
+
+
+
+article p{
+  color: var(--dark-gray);
+}
+
+.blog-highlight{
+  background-color: var(--secondary-color);
+  padding: 0 .25rem ;
+  border-radius: .25rem;
+}
+
+.blog-link{
+  padding: 0;
+  color: var(--primary-color);
+}
+
+.hero .date{
+  text-align: center;
+}
+
+.blog-read, .blog-read .lni{
+  color: var(--dark-gray);
+  font-weight: 500;
+}
+
+.code-example{
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--dark-gray);
+  border-radius: 0.25rem;
+  padding: 1rem;
+  font-size: large;
 }
